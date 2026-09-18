@@ -1,0 +1,16 @@
+{
+  "name": "mevacol-sistema",
+  "version": "1.0.0",
+  "description": "MEVACOL - Sistema Integral de Inventario, Ventas, Entregas y PWA",
+  "scripts": {
+    "dev:backend": "npm --prefix backend run dev",
+    "dev:frontend": "npm --prefix frontend run dev",
+    "build": "npm --prefix backend install && npm --prefix backend run build && npm --prefix frontend install && npm --prefix frontend run build",
+    "start": "node backend/dist/index.js",
+    "build:backend": "npm --prefix backend run build",
+    "build:frontend": "npm --prefix frontend run build"
+  },
+  "keywords": ["mevacol", "pwa", "inventory", "sales", "delivery"],
+  "author": "MEVACOL",
+  "license": "ISC"
+}
